@@ -1,0 +1,88 @@
+.campaignInfo {
+	padding: 50px 0px 50px 0px;
+}
+section{
+	position: relative;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Open Sans',sans-serif;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+h3
+{
+	font-size: 1.5em;
+}
+.campaignInfo-list-group {
+	margin: 20px 0px;
+}
+
+@media (max-width: 768px)
+.list-group-item.campaignInfo-list-group {
+    min-height: 295px;
+    max-height: 350px;
+}
+@media (max-width: 800px)
+.list-group-item.campaignInfo-list-group {
+    min-height: 270px;
+    max-height: 350px;
+}
+@media (max-width: 980px)
+.list-group-item.campaignInfo-list-group {
+    min-height: 330px;
+    max-height: 350px;
+}
+@media (max-width: 980px)
+.list-group-item.campaignInfo-list-group {
+    min-height: 159px;
+}
+.list-group-item.acclerate-list-group {
+    margin: 10px 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.list-group-item.acclerate-list-group {
+    padding: 20px auto;
+}
+.campaignNumber{
+	margin-top: 1%;
+}
+.campaignName{
+	color: #668d00;
+}
+@media (max-width: 768px)
+.list-group-item-text{
+    padding-bottom: 0px;
+}
+@media (max-width: 800px)
+.list-group-item-text {
+    padding-bottom: 0px;
+}
+@media (max-width: 980px)
+.list-group-item-text {
+    padding-bottom: 0px;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 22px;
+    font-weight: 400;
+    padding: 0 0 10px;
+}
+.campaignProgressBar{
+	width: 100%;
+	background-color: rgb(238, 238, 238);
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    position: relative;
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
+    margin: 0 auto;
+}
+.dashboardTitle{
+	text-align: center;
+	font-weight: 600;
+	color:#7fb800;
+}

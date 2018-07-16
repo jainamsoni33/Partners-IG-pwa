@@ -1,0 +1,176 @@
+
+    .Login {
+        padding: 60px 0;
+    }
+
+    .Login form {
+        margin: 0 auto;
+        max-width: 320px;
+    }
+    .login-header{
+    	animation-name: fadeInUp;
+    	margin: 23% 0% 2% 0%;
+	    background: rgba(255,255,255,1);
+	    border-radius: 0px;
+	    padding: 20px 20px;
+    }
+    .wizard-card {
+	    min-height: 410px;
+	    border: 1px solid #f2f2f2;
+	    box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2); 
+	}
+	.ceb-c {
+    	margin-top: 20px 0px;
+}
+	.ceb {
+	    max-width: 450px;
+	    margin: auto;
+	}
+	.login-header h3 {
+	    padding: 20px 0 0px;
+	    font-weight: 600;
+	    font-size: 25px;
+	}
+	h1, h2, h3, h4, h5, h6 {
+	    font-family: 'Open Sans',sans-serif;
+	    text-transform: capitalize;
+	    margin-top: 20px;
+	    margin-bottom: 10px;
+	    font-weight: 600;
+	}
+	.form-header {
+    	max-width: 89%;
+    	margin: auto;
+	}
+	.col-new {
+    float: left;
+    width: 90%;
+    margin: 12px 3%;
+    position: relative;
+    z-index: 2;
+    padding: 0px;
+    text-align: left;
+	}
+	.has-content.effect-17 ~ label {
+    top: -16px;
+    font-size: 12px;
+    color: #7fb800;
+    transition: 0.3s;
+}
+	.effect-17 ~ label {
+	    position: absolute;
+	    left: 0;
+	    width: 100%;
+	    top: 9px;
+	    color: #aaa;
+	    transition: 0.3s;
+	    z-index: -1;
+	    letter-spacing: 0.5px;
+	}
+
+	label{
+	    font-weight: 400;
+	    color:#7fb800;;
+	}
+	has-content.effect-17 ~ .focus-border {
+	    width: 100%;
+	    transition: 0.4s;
+	    left: 0;
+	}
+	.effect-17 ~ .focus-border {
+	    position: absolute;
+	    bottom: 0;
+	    left: 50%;
+	    width: 0;
+	    height: 2px;
+	    background-color: #7fb800;
+	    transition: 0.4s;
+	}
+	.btn.ssp {
+	    margin-top: 32px;
+	}
+
+	.wizard-card .btn {
+	    text-transform: uppercase;
+	}
+	.form-header .btn {
+	    border-radius: 0;
+	    height: 45px;
+	    width: 100%;
+	    background-color: #80b801;
+	    color: white;
+	    font-size: 17px !important;
+	    padding: 0 33px;
+	    border: none;
+	    margin: 0;
+	    -webkit-transition: all .8s ease;
+	    transition: all .8s ease;
+	    box-shadow: 1px 3px 5px rgba(0,0,0,0.5);
+	}
+	.btn {
+	    border-radius: 0px !important;
+	}
+	.btn {
+	    cursor: pointer;
+	    position: relative;
+	    text-decoration: none;
+	    text-transform: uppercase;
+	    vertical-align: middle;
+	}
+	.btn, .btn:before {
+	    border-radius: 0px;
+	    -weight-border-radius: 0px;
+	    -ms-border-radius: 0px;
+	    -moz-border-radius: 0px;
+	    -webkit-transition-timing-function: cubic-bezier(.2, 1, .3, 1);
+	    transition-timing-function: cubic-bezier(.2, 1, .3, 1);
+	}
+	.has-content.effect-17 ~ label {
+	    top: -16px;
+	    font-size: 12px;
+	    color: #7fb800;
+	    transition: 0.3s;
+	}
+	.effect-17 ~ label {
+	    position: absolute;
+	    left: 0;
+	    width: 100%;
+	    top: 9px;
+	    color: #aaa;
+	    transition: 0.3s;
+	    z-index: -1;
+	    letter-spacing: 0.5px;
+	}
+	label, strong {
+	    font-weight: 400;
+	}
+
+	label {
+	    display: inline-block;
+	    max-width: 100%;
+	    margin-bottom: 5px;
+	    font-weight: 700;
+	}
+	input[type="text"] {
+	    color: #000;
+	    box-sizing: border-box;
+	    letter-spacing: 1px;
+	}
+	.effect-16, .effect-17, .effect-18 {
+	    border: 0;
+	    padding: 4px 0;
+	    border-bottom: 1px solid #ccc;
+	    background-color: transparent;
+	    width: 100%;
+	}
+	.box-d {
+	    margin: 0 auto;
+	    padding: 2px;
+	    max-width: 350px;
+	    background-color: #7fb800;
+	    background-repeat: no-repeat;
+	    background-size: 0 2px, 0 100%, 0% 2px;
+	    background-position: top center, top center, bottom center;
+	    -webkit-animation: drawBorderFromCenter 4s;
+	    margin-top: 100px;
+	}

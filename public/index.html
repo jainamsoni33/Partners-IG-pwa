@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#536878">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" href="image.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="image.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>ImpactGuru App</title>
+  <!-- Add in some basic styles for our HTML -->
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+    .App {
+      text-align: center;
+    }
+    .App-header {
+      background-color: #222;
+      height: 150px;
+      padding: 20px;
+      color: white;
+    }
+    .App-intro {
+      font-size: large;
+    }
+  </style>
+</head>
+<body>
+<!-- Filler HTML as our app starts up -->
+<div id="root">
+  <div class="App">
+    <div class="App-header">
+      <h2>Impactguru Partners</h2>
+    </div>
+    <p class="App-intro">
+      Loading site...
+    </p>
+  </div>
+  <script>
+      if ('serviceWorker' in navigator && 'PushManager' in window) {
+          window.addEventListener('load', function() {
+              navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+                  // Registration was successful
+                  console.log('ServiceWorker registration & Push manager successful with scope: ', registration.scope);
+                  initializeUI();
+              }, function(err) {
+                  // registration failed :(
+                  console.log('ServiceWorker registration failed: ', err);
+              }).catch(function(err) {
+                  console.log(err)
+              });
+          });
+      } else {
+          console.log('service worker is not supported');
+      }
+  </script>
+</body>
+</html>

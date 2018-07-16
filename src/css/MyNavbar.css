@@ -1,0 +1,9 @@
+.navbar-default .navbar-brand {
+    color: #7fb800;
+}
+.navbar-brand {
+	font-size: 25px;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #7fb800;
+}
